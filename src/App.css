@@ -1,3 +1,32 @@
+body {
+  background-color: #303030;
+  color: #e0e0e0;
+}
+
+#search-bar {
+  width: 60%;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding-left: 10px;
+  color: #e0e0e0;
+  font-size: 14px;
+  background-color: #404040;
+}
+
+#search-bar::placeholder {
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+#Reset {
+  width: 8%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: linear-gradient(#b0b0b0, #404040) no-repeat;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +64,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.button {
+  border-radius: 10px;
+  background: linear-gradient(#b0b0b0, #606060) no-repeat;
+}
+
+.button:hover, #Reset:hover {
+  background: linear-gradient(#606060, #b0b0b0) no-repeat;
 }
